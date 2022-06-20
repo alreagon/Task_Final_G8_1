@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="/home/patra/AndroidStudioProjects/ChallengeChapter8Binar/app/src/main/res/drawable/background_card.jpg" />
+        <ignore path="/home/patra/AndroidStudioProjects/ChallengeChapter8Binar/app/src/main/res/drawable/background_card.jpg" />
+        <ignore path="/home/patra/AndroidStudioProjects/ChallengeChapter8Binar/app/src/main/res/drawable/background_card.jpg" />
+        <ignore path="/home/patra/AndroidStudioProjects/ChallengeChapter8Binar/app/src/main/res/drawable/background_card.jpg" />
+        <ignore path="/home/patra/AndroidStudioProjects/ChallengeChapter8Binar/app/src/main/res/drawable/person_icon.png" />
+        <ignore path="/home/patra/AndroidStudioProjects/ChallengeChapter8Binar/app/src/main/res/drawable/person_icon.png" />
+    </issue>
+</lint>
