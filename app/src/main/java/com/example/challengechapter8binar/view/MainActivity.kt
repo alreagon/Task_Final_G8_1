@@ -46,10 +46,9 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             ChallengeChapter8BinarTheme {
-                // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
+                    color = MaterialTheme.colors.background,
                 ) {
                     val viewModelMovie = viewModel(modelClass = MovieViewModel::class.java)
                     val dataMovie by viewModelMovie.dataMovieState.collectAsState()
