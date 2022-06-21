@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.rememberImagePainter
 import com.example.challengechapter8binar.model.Movie
-import com.example.challengechapter8binar.view.ui.theme.ChallengeChapter8BinarTheme
+import com.example.challengechapter8binar.ui.theme.ChallengeChapter8BinarTheme
 
 class DetailActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -126,6 +126,5 @@ fun DisplayDetail(movie: Movie) {
 @Composable
 fun DefaultPreview4() {
     ChallengeChapter8BinarTheme {
-
     }
 }

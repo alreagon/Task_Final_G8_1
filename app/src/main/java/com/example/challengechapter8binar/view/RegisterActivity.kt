@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.challengechapter8binar.R
 import com.example.challengechapter8binar.model.RequestUser
-import com.example.challengechapter8binar.view.ui.theme.ChallengeChapter8BinarTheme
+import com.example.challengechapter8binar.ui.theme.ChallengeChapter8BinarTheme
 import com.example.challengechapter8binar.viewmodel.UserViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.*

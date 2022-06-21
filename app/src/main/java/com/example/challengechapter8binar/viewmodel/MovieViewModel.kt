@@ -18,7 +18,7 @@ class MovieViewModel @Inject constructor(apiServices: ApiServices) : ViewModel()
     private val movieState = MutableStateFlow(emptyList<Movie>())
     val dataMovieState: StateFlow<List<Movie>> get() = movieState
     private val api = apiServices
-    private val apiKey = "38c63d3167f5d3b3dc87620291bc2b1d"
+    private val apiKey = "1c9c88a7ed857e63d5aaab264c8d0169"
 
     init {
         val command = api.getMovie(apiKey)
